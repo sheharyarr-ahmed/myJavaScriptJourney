@@ -18,6 +18,7 @@ console.log(y);
 y += 12;
 console.log(y);
 
+// comparison operators
 const thisYear = 2025;
 const myBirthYear = 2002;
 console.log(thisYear - myBirthYear);
@@ -27,3 +28,23 @@ let sheryAge = 23;
 console.log(sheryAge);
 sheryAge++;
 console.log(sheryAge);
+
+const sheryC = 99;
+const basitC = 98;
+const average = (sheryC + basitC) / 2;
+
+console.log(average);
+console.log(average > 100);
+
+const head = "this is heading";
+console.log(head);
+const massMark = 78;
+const massJohn = 92;
+const heightMark = 1.69;
+const heightJohn = 1.95;
+
+const BMIMark = massMark / (heightMark * heightMark);
+const BMIJohn = massJohn / (heightJohn * heightJohn);
+
+console.log(BMIMark);
+console.log(BMIJohn);

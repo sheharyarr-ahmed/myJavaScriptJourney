@@ -1,4 +1,3 @@
-/*
 let sa = "sheharyar ahmed";
 // if ((sa = "sheharyar ahmed")) alert("welcome you are going on the right path");
 console.log(5 + 5);
@@ -14,5 +13,3 @@ console.log(myBachelors);
 
 let myMasters = "NUST";
 console.log(myMasters);
-
-*/

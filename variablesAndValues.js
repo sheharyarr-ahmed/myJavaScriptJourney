@@ -1,4 +1,3 @@
-/*
 // this section represents the values and variables practices
 
 let country1 = "Pakistan";
@@ -36,4 +35,3 @@ console.log(genderMale);
 // // constant variable value cannot be changed, this will not get executed
 // genderMale = "girl";
 // console.log(genderMale);
-*/
