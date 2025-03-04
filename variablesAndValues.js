@@ -1,3 +1,4 @@
+/*
 // this section represents the values and variables practices
 
 let country1 = "Pakistan";
@@ -25,3 +26,14 @@ let population = "241 million";
 console.log(country);
 console.log(continent);
 console.log(population);
+
+let js = "javascript";
+console.log(js);
+
+const genderMale = "boy";
+console.log(genderMale);
+
+// // constant variable value cannot be changed, this will not get executed
+// genderMale = "girl";
+// console.log(genderMale);
+*/

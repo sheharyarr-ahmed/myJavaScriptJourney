@@ -1,3 +1,4 @@
+/*
 // this section represents typeof function that represents the types of data types
 
 let sh = true;
@@ -23,3 +24,4 @@ console.log(typeof uniName);
 
 let unKnown;
 console.log(unKnown);
+*/
