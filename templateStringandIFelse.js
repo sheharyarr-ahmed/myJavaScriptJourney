@@ -19,3 +19,35 @@ console.log(
      priceNow > priceOfCar
    }`
 );
+
+console.log(
+  "now this part represents about if else control structure lets ee what really if else control structure is with an example"
+);
+
+const myAge = 15;
+const cnicAge = 18;
+
+if (myAge >= 18) {
+  console.log(
+    `Yes, you are now eligible to have your CNIC as your age is ${myAge}`
+  );
+} else {
+  console.log(
+    `As of now you are not eligible to have your own CNIC as your age is should be equals or above ${cnicAge}`
+  );
+}
+
+const dreamCar = "Civic RS";
+const dreamCarPrice = 10;
+let accountBalance = 50;
+let paymentMethod;
+
+if (accountBalance >= dreamCarPrice) {
+  paymentMethod = "check";
+  console.log(
+    `you can pay for your brand new ${dreamCar} via ${paymentMethod}`
+  );
+} else {
+  paymentMethod = "installments";
+  console.log(`you can pay for your ${dreamCar} in ${paymentMethod}`);
+}
