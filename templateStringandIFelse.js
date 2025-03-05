@@ -51,3 +51,27 @@ if (accountBalance >= dreamCarPrice) {
   paymentMethod = "installments";
   console.log(`you can pay for your ${dreamCar} in ${paymentMethod}`);
 }
+
+// below is the example for the type conversion
+
+let x = "10";
+x = Number(x) + 2;
+x = Number(14) + String(2);
+console.log(x);
+
+// use case for falsy values
+// there are 5 flasy values null, false, '', 0, undefined, NaN;
+// the condition in that if else control structure is being converted into Boolean via coercion by Boolean()
+let y = 0;
+if (y) {
+  console.log("if y is true this will gonna show");
+} else {
+  console.log(" y is an falsy value");
+}
+
+const l = null;
+if (l) {
+  console.log("l is true");
+} else {
+  console.log("l is falsy value");
+}
