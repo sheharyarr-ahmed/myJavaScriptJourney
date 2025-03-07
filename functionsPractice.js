@@ -67,5 +67,16 @@ function booleanFunction(age) {
   return value;
 }
 
-const resultBooleanFunction = booleanFunction(4);
+const resultBooleanFunction = booleanFunction(21);
 console.log(resultBooleanFunction);
+
+//function expression: another way of declaaring a function
+
+const addNumbers = function (num1, num2) {
+  const sum = num1 + num2;
+
+  return sum;
+};
+
+const resultaddNumbers = addNumbers(2, 7);
+console.log(resultaddNumbers);
