@@ -22,3 +22,13 @@ fruitProcessor(0, 1); // calling the function and now also recieves the input da
 const orangeJuice = fruitProcessor(0, 5); //storing the result as the return is now replaced with fruitProcessor(0, 5) and it has to stored in the variable and then can be logged on the next line
 console.log(orangeJuice);
 console.log(fruitProcessor(0, 5)); //logged without storing the function into a variable
+
+function fullStackDeveloper(name, language) {
+  console.log(name, language);
+  const stack = `hi i am ${name} and i am learning ${language}`;
+  return stack;
+}
+
+fullStackDeveloper("sheharyar", "javascript");
+const practiceFunction = fullStackDeveloper("sheharyar", "javascript");
+console.log(practiceFunction);

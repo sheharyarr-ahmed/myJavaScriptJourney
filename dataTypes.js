@@ -23,3 +23,19 @@ console.log(typeof uniName);
 
 let unKnown;
 console.log(unKnown);
+
+const nameOfCar = "BMW I7";
+const nameOfLady = "huda";
+let nH = "Noor-Ul-Huda";
+console.log(nameOfCar);
+console.log(nameOfLady);
+console.log(nH);
+
+nH = "Zarish";
+console.log(nH);
+console.log(typeof nH);
+
+let myNumbers = 20000;
+console.log(typeof myNumbers);
+myNumbers = 30000;
+console.log(myNumbers);

@@ -50,3 +50,19 @@ if (car !== "bmw") {
   console.log("why not an luxury car");
 }
 */
+
+// const carName = prompt("enter your favourite car name");
+// if (carName === "grande") {
+//   console.log("oh nice, i also have the same car");
+// } else if (carName === "civic") {
+//   console.log("thats an honda car");
+// } else {
+//   console.log("hmm, ok nice car you got");
+// }
+
+const carName = prompt("enter your favourite car name");
+if (carName !== "bmw") {
+  console.log("oh nice, but BMW would be amazing");
+} else {
+  console.log("oh good choice");
+}

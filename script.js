@@ -13,3 +13,12 @@ console.log(myBachelors);
 
 let myMasters = "NUST";
 console.log(myMasters);
+
+let myDog = "Tommy";
+console.log(myDog);
+
+let myRoommate = "Umer";
+console.log(myRoommate);
+
+let myGoal = "To overcome the procrastination";
+console.log(myGoal);

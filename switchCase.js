@@ -47,21 +47,50 @@ if (day === "monday") {
 */
 
 // the below code is practice of switch case statement
-console.log("students list");
+// console.log("students list");
 
-const std = prompt("enter your name");
-console.log(`name: ${std}`);
+// const std = prompt("enter your name");
+// console.log(`name: ${std}`);
 
-switch (std) {
-  case "sheharyar":
-    console.log("yes you are an student");
+// switch (std) {
+//   case "sheharyar":
+//     console.log("yes you are an student");
+//     break;
+//   case "umer":
+//     console.log("yes you are an student");
+//     break;
+//   case "hamza":
+//     console.log("yes you are an student");
+//     break;
+//   default:
+//     console.log("you are not an student");
+// }
+
+// console.log("welcome to showroom");
+// const carName = prompt(
+//   "enter the name of the car what car you want to purchase"
+// );
+// switch (carName) {
+//   case "grande":
+//     console.log("yes this one is available");
+//     break;
+//   case "civic":
+//     console.log("yes this one is available");
+//     break;
+//   default:
+//     console.log("sorry this car is not available in the showrrom");
+// }
+
+const cityName = prompt(
+  "enter the name of the city of whose you want to know the temperature"
+);
+switch (cityName) {
+  case "lahore":
+    console.log("the temperatue is 30 degrees");
     break;
-  case "umer":
-    console.log("yes you are an student");
-    break;
-  case "hamza":
-    console.log("yes you are an student");
+  case "karachi":
+    console.log("the temperature is 32 degrees");
     break;
   default:
-    console.log("you are not an student");
+    console.log("sorry this city is not included in the list");
 }

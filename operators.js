@@ -61,3 +61,9 @@ if (BMIMark > BMIJohn) {
     `John's's BMI ${BMIJohn} is higher than the Mark's BMI ${BMIMark}`
   );
 }
+
+const pracJS = "hey I am practicing Java Script";
+console.log(`hey there i am sheharyar and ${pracJS}`);
+
+const msDegree = "software engineering";
+console.log(`here at nust i am doing masters in ${msDegree}`);

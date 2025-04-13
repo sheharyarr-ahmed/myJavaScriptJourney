@@ -35,3 +35,9 @@ console.log(genderMale);
 // // constant variable value cannot be changed, this will not get executed
 // genderMale = "girl";
 // console.log(genderMale);
+
+const wifeName = "Sophia";
+console.log(wifeName);
+
+// wifeName = "Ana De Armas";
+// console.log(wifeName);

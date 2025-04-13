@@ -62,7 +62,7 @@ console.log(x);
 // use case for falsy values
 // there are 5 flasy values null, false, '', 0, undefined, NaN;
 // the condition in that if else control structure is being converted into Boolean via coercion by Boolean()
-let y = 0;
+let y = null;
 if (y) {
   console.log("if y is true this will gonna show");
 } else {
@@ -75,3 +75,18 @@ if (l) {
 } else {
   console.log("l is falsy value");
 }
+
+const myVariable = 125;
+if (myVariable === 123) {
+  console.log("if this is true this will diplsay this message");
+} else {
+  console.log("else it will display this message");
+}
+
+let h = "10";
+let i = "7";
+h = String(h) + 2;
+console.log(i);
+console.log(h);
+i = Number(i) + Number(h);
+console.log(i);
