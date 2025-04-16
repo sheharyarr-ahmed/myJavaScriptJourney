@@ -73,3 +73,4 @@ for (let t = 0; t < cars.length; t++) {
     cars.splice(2, 0, "audi");
   }
 }
+console.log(cars);
