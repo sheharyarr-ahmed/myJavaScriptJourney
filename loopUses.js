@@ -73,4 +73,20 @@ for (let t = 0; t < cars.length; t++) {
     cars.splice(2, 0, "audi");
   }
 }
+
+// looping backwards
 console.log(cars);
+// console.log(cars.length - 1);
+for (let g = cars.length - 1; g >= 0; g--) {
+  console.log(cars[g]);
+}
+
+// loop inside of an loop
+
+for (let b = 1; b <= 3; b++) {
+  console.log(`the cars available right now are car${b}`);
+
+  for (let j = 1; j <= 2; j++) {
+    console.log(`this car has ${j} seating options`);
+  }
+}
